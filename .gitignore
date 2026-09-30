@@ -1,0 +1,19 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Dependencies and generated files
+node_modules/
+dist/
+coverage/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/*
+!.vscode/extensions.json
