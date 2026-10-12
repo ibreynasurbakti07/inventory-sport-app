@@ -1,6 +1,12 @@
-# Sportstock
+# Sportstock — Aplikasi Persediaan Perlengkapan Olahraga
 
-Aplikasi persediaan perlengkapan olahraga dengan frontend HTML/CSS/JavaScript yang berkomunikasi langsung dengan Supabase Auth dan PostgreSQL REST API. Node.js dan `package.json` tidak diperlukan.
+Aplikasi web satu halaman untuk mencatat dan mengelola persediaan perlengkapan olahraga.
+
+🌐 **Demo website:** [https://ibreynasurbakti07.github.io/inventory-sport-app/](https://ibreynasurbakti07.github.io/inventory-sport-app/)
+
+Sportstock membantu memantau stok, kategori, pemasok, dan mutasi barang masuk maupun keluar. Aplikasi dibuat dengan HTML, CSS, dan JavaScript, serta menggunakan Supabase Auth dan PostgreSQL REST API untuk autentikasi dan penyimpanan data.
+
+Halaman utama repository mengarahkan pengunjung ke aplikasi di folder `frontend`, sehingga link demo di atas tetap dapat digunakan.
 
 ## Struktur
 

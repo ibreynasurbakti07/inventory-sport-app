@@ -3,50 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f5f0" />
-    <title>Sportstock — Persediaan olahraga</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="supabase-config.js" defer></script>
-    <script src="app.js" defer></script>
+    <meta http-equiv="refresh" content="0; url=./frontend/" />
+    <title>Sportstock</title>
   </head>
   <body>
-    <div id="auth-root"></div>
-    <div class="app-shell" hidden>
-      <aside class="sidebar" id="sidebar">
-        <a class="brand" href="#dashboard" aria-label="Sportstock beranda">
-          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 24 16 6l10 18H6Z"/><path d="m11 24 5-9 5 9M16 15v9"/></svg></span>
-          <span>sport<span class="brand-light">stock</span></span>
-        </a>
-        <p class="nav-label">RUANG KERJA</p>
-        <nav class="main-nav" aria-label="Navigasi utama">
-          <button class="nav-item is-active" data-view="dashboard"><span class="nav-icon">⌂</span>Ringkasan</button>
-          <button class="nav-item" data-view="inventory"><span class="nav-icon">▦</span>Persediaan</button>
-          <button class="nav-item" data-view="movements"><span class="nav-icon">⇄</span>Mutasi stok</button>
-          <button class="nav-item" data-view="reports"><span class="nav-icon">◷</span>Laporan</button>
-        </nav>
-        <div class="sidebar-bottom">
-          <div class="sidebar-promo">
-            <div class="promo-ball" aria-hidden="true">◉</div>
-            <p>Semua perlengkapan, satu tempat.</p>
-            <span>Kelola stok dengan lebih rapi.</span>
-          </div>
-          <div class="connection-state"><span class="connection-dot"></span><span id="connection-label">Menghubungkan...</span></div>
-        </div>
-      </aside>
-
-      <main class="main-area">
-        <header class="topbar">
-          <button class="mobile-menu icon-button" id="mobile-menu" aria-label="Buka navigasi">☰</button>
-          <div class="breadcrumb"><span>Operasional</span><span class="breadcrumb-divider">/</span><strong id="breadcrumb-current">Ringkasan</strong></div>
-          <div class="topbar-right"><span class="today-label" id="today-label"></span><button class="sign-out" id="sign-out" type="button" hidden>Keluar</button><span class="avatar" aria-label="Administrator">AD</span></div>
-        </header>
-        <section id="app-content" class="page-content" aria-live="polite"></section>
-      </main>
-    </div>
-    <div id="modal-root"></div>
-    <div id="toast-root" class="toast-root" aria-live="polite"></div>
+    <p>Membuka aplikasi Sportstock…</p>
+    <p><a href="./frontend/">Klik di sini jika aplikasi tidak terbuka otomatis.</a></p>
+    <script>
+      window.location.replace(new URL("frontend/", window.location.href));
+    </script>
   </body>
 </html>
